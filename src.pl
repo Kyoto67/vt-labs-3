@@ -19,4 +19,8 @@ weapon(Kakuja).
 
 
 % Attributes
-
+rank(Kaneki, SSS).
+rank(Touka, S).
+rank(Jason, SS).
+rank(Rize, SSS).
+equipment(
