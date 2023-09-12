@@ -1,0 +1,11 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Текст задания.}{3}{}%
+\contentsline {section}{\numberline {2}Описание предметной области.}{3}{}%
+\contentsline {section}{\numberline {3}Список и классификация сущностей.}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Стержневые.}{3}{}%
+\contentsline {subsection}{\numberline {3.2}Ассоциативные.}{3}{}%
+\contentsline {subsection}{\numberline {3.3}Характеристические.}{3}{}%
+\contentsline {section}{\numberline {4}Инфологическая модель.}{4}{}%
+\contentsline {section}{\numberline {5}Даталогическая модель.}{4}{}%
+\contentsline {section}{\numberline {6}Реализация даталогической модели на SQL.}{5}{}%
+\contentsline {section}{\numberline {7}Выводы по работе.}{6}{}%
