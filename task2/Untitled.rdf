@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5/"
+     xml:base="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-5="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#has_kagune -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#has_kagune"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#has_quinque -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#has_quinque"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#is_enemies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#is_enemies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#is_friends -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#is_friends"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#is_kagune_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#is_kagune_type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#is_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#is_part_of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#is_quinque_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#is_quinque_type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#is_subordinate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#is_subordinate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#is_superior -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#is_superior"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#fraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#fraction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ghoul -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ghoul"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ghoul_investigator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ghoul_investigator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#human -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#human"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#investigator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#investigator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#kagune_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#kagune_type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#quinque_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#quinque_type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ranks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ranks"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#akira -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#akira">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#human"/>
+        <untitled-ontology-5:has_quinque rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#arata"/>
+        <untitled-ontology-5:is_part_of rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ccg"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#amon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#amon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#human"/>
+        <untitled-ontology-5:has_quinque rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#jason"/>
+        <untitled-ontology-5:is_enemies rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#kaneki"/>
+        <untitled-ontology-5:is_part_of rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ccg"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#arata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#arata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#quinque_type"/>
+        <untitled-ontology-5:is_quinque_type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#sss"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ayato -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ayato">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ghoul"/>
+        <untitled-ontology-5:has_kagune rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ukaku"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#bikaku -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#bikaku">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#kagune_type"/>
+        <untitled-ontology-5:is_kagune_type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#s"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ccg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ccg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#fraction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#furuta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#furuta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ghoul_investigator"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#investigator"/>
+        <untitled-ontology-5:is_superior rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#juzo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ghouls -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ghouls">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#fraction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#haise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#haise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ghoul_investigator"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#investigator"/>
+        <untitled-ontology-5:has_quinque rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ukaku"/>
+        <untitled-ontology-5:is_part_of rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ccg"/>
+        <untitled-ontology-5:is_part_of rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#quinx"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#jason -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#jason">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#quinque_type"/>
+        <untitled-ontology-5:is_quinque_type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ss"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#juzo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#juzo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#investigator"/>
+        <untitled-ontology-5:is_subordinate rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#furuta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#kaneki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#kaneki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ghoul"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ghoul_investigator"/>
+        <untitled-ontology-5:has_kagune rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#rinkaku"/>
+        <untitled-ontology-5:is_enemies rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#amon"/>
+        <untitled-ontology-5:is_friends rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#touka"/>
+        <untitled-ontology-5:is_part_of rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ghouls"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#mado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#mado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#investigator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#quinx -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#quinx">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#fraction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#rinkaku -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#rinkaku">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#kagune_type"/>
+        <untitled-ontology-5:is_kagune_type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#sss"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#s -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#s">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ranks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ss -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ss">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ranks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#sss -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#sss">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ranks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#touka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#touka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ghoul"/>
+        <untitled-ontology-5:has_kagune rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ukaku"/>
+        <untitled-ontology-5:is_friends rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#kaneki"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ukaku -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ukaku">
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#kagune_type"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#quinque_type"/>
+        <untitled-ontology-5:is_kagune_type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#ss"/>
+        <untitled-ontology-5:is_quinque_type rdf:resource="http://www.semanticweb.org/r355-m-5-stud/ontologies/2023/8/untitled-ontology-5#s"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,24 @@
+% Facts and rules are defined here...
+
+% Queries to test the knowledge base
+?- is_ghoul(kaneki). % Check if Kaneki is a ghoul
+?- is_ghoul_investigator(X). % Find all the ghouls who are also investigators
+?- is_enemy(touka, amon). % Determine if Touka is an enemy of Amon
+?- has_kagune(X, rinkaku). % List all the characters who have a rinkaku kagune
+?- is_superior(furuta, juzo). % Check if Furuta is superior to Juzo
+?- has_quinque(haise, QType). % Find the quinque type used by Haise
+?- is_friend(kaneki, touka). % Determine if Kaneki and Touka are friends
+?- is_part_of(ayato, ccg). % Check if Ayato is part of the CCG
+?- has_kagune(X, ukaku). % Find all the ghouls who have an ukaku kagune
+?- is_enemy(X, Y). % List all the enemies in the knowledge base
+
+% Queries to test the rules
+?- is_ghoul_enemy(X, Y). % Find ghouls who are enemies of other ghouls
+?- is_investigator_enemy(X, Y). % Find investigators who are enemies of other investigators
+?- is_ghoul_friendly(X, Y). % Find ghouls who are friends with other ghouls
+?- is_investigator_friendly(X, Y). % Find investigators who are friends with other investigators
+?- is_enemy(kaneki, touka), is_friend(kaneki, touka). % Check if Kaneki and Touka are both enemies and friends (testing conflicting rules)
+?- is_subordinate(haise, furuta). % Check if Haise is a subordinate of Furuta
+?- is_ghoul_investigator(X), has_kagune(X, Kagune). % Find all ghouls who are also investigators and have kagune
+?- is_superior(mado, amon), is_enemy(mado, kaneki). % Check if Mado is an investigator superior to Amon and an enemy of Kaneki
+

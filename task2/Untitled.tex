@@ -1,0 +1,179 @@
+\documentclass{article}
+\usepackage{breqn}
+\parskip 0pt
+\parindent 0pt
+\oddsidemargin 0cm
+\textwidth 19cm
+\begin{document}
+
+\subsection*{Classes}
+
+\subsubsection*{fraction}
+
+\subsubsection*{ghoul}
+
+\subsubsection*{ghoul\_investigator}
+
+\subsubsection*{human}
+
+\subsubsection*{investigator}
+
+\subsubsection*{kagune\_type}
+
+\subsubsection*{quinque\_type}
+
+\subsubsection*{ranks}
+
+\section*{Object properties}\subsubsection*{has\_kagune}
+
+\subsubsection*{has\_quinque}
+
+\subsubsection*{is\_enemies}
+
+\subsubsection*{is\_friends}
+
+\subsubsection*{is\_kagune\_type}
+
+\subsubsection*{is\_part\_of}
+
+\subsubsection*{is\_quinque\_type}
+
+\subsubsection*{is\_subordinate}
+
+\subsubsection*{is\_superior}
+
+\section*{Data properties}\section*{Individuals}\subsubsection*{akira}
+
+akira~:~human
+
+has\_quinque(akira, arata)
+
+is\_part\_of(akira, ccg)
+
+\subsubsection*{amon}
+
+amon~:~human
+
+has\_quinque(amon, jason)
+
+is\_part\_of(amon, ccg)
+
+is\_enemies(amon, kaneki)
+
+\subsubsection*{arata}
+
+arata~:~quinque\_type
+
+is\_quinque\_type(arata, sss)
+
+\subsubsection*{ayato}
+
+ayato~:~ghoul
+
+has\_kagune(ayato, ukaku)
+
+\subsubsection*{bikaku}
+
+bikaku~:~kagune\_type
+
+is\_kagune\_type(bikaku, s)
+
+\subsubsection*{ccg}
+
+ccg~:~fraction
+
+\subsubsection*{furuta}
+
+furuta~:~ghoul\_investigator
+
+furuta~:~investigator
+
+is\_superior(furuta, juzo)
+
+\subsubsection*{ghouls}
+
+ghouls~:~fraction
+
+\subsubsection*{haise}
+
+haise~:~investigator
+
+haise~:~ghoul\_investigator
+
+has\_quinque(haise, ukaku)
+
+is\_part\_of(haise, ccg)
+
+is\_part\_of(haise, quinx)
+
+\subsubsection*{jason}
+
+jason~:~quinque\_type
+
+is\_quinque\_type(jason, ss)
+
+\subsubsection*{juzo}
+
+juzo~:~investigator
+
+is\_subordinate(juzo, furuta)
+
+\subsubsection*{kaneki}
+
+kaneki~:~ghoul
+
+kaneki~:~ghoul\_investigator
+
+has\_kagune(kaneki, rinkaku)
+
+is\_enemies(kaneki, amon)
+
+is\_friends(kaneki, touka)
+
+is\_part\_of(kaneki, ghouls)
+
+\subsubsection*{mado}
+
+mado~:~investigator
+
+\subsubsection*{quinx}
+
+quinx~:~fraction
+
+\subsubsection*{rinkaku}
+
+rinkaku~:~kagune\_type
+
+is\_kagune\_type(rinkaku, sss)
+
+\subsubsection*{s}
+
+s~:~ranks
+
+\subsubsection*{ss}
+
+ss~:~ranks
+
+\subsubsection*{sss}
+
+sss~:~ranks
+
+\subsubsection*{touka}
+
+touka~:~ghoul
+
+is\_friends(touka, kaneki)
+
+has\_kagune(touka, ukaku)
+
+\subsubsection*{ukaku}
+
+ukaku~:~quinque\_type
+
+ukaku~:~kagune\_type
+
+is\_kagune\_type(ukaku, ss)
+
+is\_quinque\_type(ukaku, s)
+
+\section*{Datatypes}\end{document}
