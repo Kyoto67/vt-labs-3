@@ -1,3 +1,6 @@
+-- Создание enum
+CREATE TYPE sex AS ENUM ('male', 'female', 'both');
+
 -- Создание таблицы actions
 CREATE TABLE actions (
     action_id SERIAL PRIMARY KEY,
@@ -20,7 +23,7 @@ CREATE TABLE groups (
 CREATE TABLE actors (
     actor_id SERIAL PRIMARY KEY,
     name VARCHAR(255),
-    gender VARCHAR(10),
+    sex sex,
     group_id INT REFERENCES groups(group_id)
 );
 
@@ -28,7 +31,8 @@ CREATE TABLE actors (
 CREATE TABLE events (
     event_id SERIAL PRIMARY KEY,
     actor INT REFERENCES actors(actor_id),
-    action INT REFERENCES actions(action_id)
+    action INT REFERENCES actions(action_id),
+    order_or INT
 );
 
 -- Создание таблицы expressions
