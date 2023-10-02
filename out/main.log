@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.30)  1 OCT 2023 16:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.30)  2 OCT 2023 19:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1455,19 +1455,24 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `main.toc'.
 
  [2]
-<img/info_model.png, id=18, 2574.61874pt x 1097.09875pt>
+<img/info_model.png, id=18, 3049.3925pt x 1097.09875pt>
 File: img/info_model.png Graphic file (type png)
 <use img/info_model.png>
 Package pdftex.def Info: img/info_model.png  used on input line 51.
-(pdftex.def)             Requested size: 386.17615pt x 164.55771pt.
- [3]
-<img/data_model.png, id=23, 2216.28pt x 615.29875pt>
+(pdftex.def)             Requested size: 457.38914pt x 164.55771pt.
+
+Overfull \hbox (30.5978pt too wide) in paragraph at lines 51--52
+ [][] 
+ []
+
+[3]
+<img/data_model.png, id=23, 4531.93124pt x 1153.30875pt>
 File: img/data_model.png Graphic file (type png)
 <use img/data_model.png>
 Package pdftex.def Info: img/data_model.png  used on input line 57.
-(pdftex.def)             Requested size: 443.24815pt x 123.05756pt.
+(pdftex.def)             Requested size: 453.21968pt x 115.33763pt.
 
-Overfull \hbox (16.4568pt too wide) in paragraph at lines 57--58
+Overfull \hbox (26.42833pt too wide) in paragraph at lines 57--58
  [][] 
  []
 
@@ -1535,7 +1540,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--38
 Here is how much of TeX's memory you used:
  30143 strings out of 478287
  716312 string characters out of 5849289
- 1089214 words of memory out of 5000000
+ 1090214 words of memory out of 5000000
  47851 multiletter control sequences out of 15000+600000
  478119 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1547,7 +1552,7 @@ hare/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/typ
 e1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
 frm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/sh
 are/texmf/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on /home/kyoto/workspace/vt-labs-3/out/main.pdf (6 pages, 281607
+Output written on /home/kyoto/workspace/vt-labs-3/out/main.pdf (6 pages, 358547
  bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)

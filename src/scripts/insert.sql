@@ -43,9 +43,9 @@ VALUES
 
 INSERT INTO events (actor, action, order_or)
 VALUES
-    ((SELECT actor_id FROM actors WHERE name = 'элли'), (SELECT action_id FROM actions WHERE name = 'обойти здание'), 1),
-    ((SELECT actor_id FROM actors WHERE name = 'малкольм'), (SELECT action_id FROM actions WHERE name = 'обойти здание'), 1),
-    ((SELECT actor_id FROM actors WHERE name = 'грант'), (SELECT action_id FROM actions WHERE name = 'обойти здание'), 1),
-    ((SELECT actor_id FROM actors WHERE name = 'мальчик'), (SELECT action_id FROM actions WHERE name = 'следовать'), 2),
-    ((SELECT actor_id FROM actors WHERE name = 'дети'), (SELECT action_id FROM actions WHERE name = 'стоять'), 3),
-    ((SELECT actor_id FROM actors WHERE name = 'дети'), (SELECT action_id FROM actions WHERE name = 'смотреть'), 4);
+    ((SELECT actor_id FROM actors WHERE name = 'элли'), (SELECT action_id FROM actions WHERE name = 'обойти здание'), 1000, 2000),
+    ((SELECT actor_id FROM actors WHERE name = 'малкольм'), (SELECT action_id FROM actions WHERE name = 'обойти здание'), 1000, 2000),
+    ((SELECT actor_id FROM actors WHERE name = 'грант'), (SELECT action_id FROM actions WHERE name = 'обойти здание'), 1000, 2000),
+    ((SELECT actor_id FROM actors WHERE name = 'мальчик'), (SELECT action_id FROM actions WHERE name = 'следовать'), 2000, 3000),
+    ((SELECT actor_id FROM actors WHERE name = 'дети'), (SELECT action_id FROM actions WHERE name = 'стоять'), 3000, 4000),
+    ((SELECT actor_id FROM actors WHERE name = 'дети'), (SELECT action_id FROM actions WHERE name = 'смотреть'), 4000, 5000);

@@ -1,25 +1,20 @@
--- Создание enum
 CREATE TYPE sex AS ENUM ('male', 'female', 'both');
 
--- Создание таблицы actions
 CREATE TABLE actions (
     action_id SERIAL PRIMARY KEY,
     name VARCHAR(255)
 );
 
--- Создание таблицы feels
 CREATE TABLE feels (
     feel_id SERIAL PRIMARY KEY,
     name VARCHAR(255)
 );
 
--- Создание таблицы groups
 CREATE TABLE groups (
     group_id SERIAL PRIMARY KEY,
     name VARCHAR(255)
 );
 
--- Создание таблицы actors
 CREATE TABLE actors (
     actor_id SERIAL PRIMARY KEY,
     name VARCHAR(255),
@@ -27,15 +22,14 @@ CREATE TABLE actors (
     group_id INT REFERENCES groups(group_id)
 );
 
--- Создание таблицы events
 CREATE TABLE events (
     event_id SERIAL PRIMARY KEY,
     actor INT REFERENCES actors(actor_id),
     action INT REFERENCES actions(action_id),
-    order_or INT
+    timestamp_from BIGINT,
+    timestamp_to BIGINT
 );
 
--- Создание таблицы expressions
 CREATE TABLE expressions (
     expression_id SERIAL PRIMARY KEY,
     who INT REFERENCES actors(actor_id),

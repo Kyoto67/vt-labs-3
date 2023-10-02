@@ -29,7 +29,8 @@ CREATE TABLE events (
     event_id SERIAL PRIMARY KEY,
     actor INT REFERENCES actors(actor_id),
     action INT REFERENCES actions(action_id),
-    order_or INT
+    timestamp_from BIGINT,
+    timestamp_to BIGINT
 );
 
 CREATE TABLE expressions (
