@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.30)  12 OCT 2023 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.30)  12 OCT 2023 19:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1455,122 +1455,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `main.toc'.
 
  [2]
-./tex/main_page.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33     \item actors_
-                      categories_history
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-./tex/main_page.tex:34: LaTeX Error: Command \end{enumerate} invalid in math mo
-de.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 \end{enumerate}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/main_page.tex:34: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 \end{enumerate}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/main_page.tex:34: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 \end{enumerate}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./tex/main_page.tex:34: Missing $ inserted.
-<inserted text> 
-                $
-l.34 \end{enumerate}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./tex/main_page.tex:46: Missing $ inserted.
-<inserted text> 
-                $
-l.46     \item actors_
-                      categories
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-./tex/main_page.tex:47: LaTeX Error: Command \end{enumerate} invalid in math mo
-de.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 \end{enumerate}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/main_page.tex:47: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 \end{enumerate}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/main_page.tex:47: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 \end{enumerate}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./tex/main_page.tex:47: Missing $ inserted.
-<inserted text> 
-                $
-l.47 \end{enumerate}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 <img/info_model.png, id=18, 3366.5775pt x 1197.47375pt>
 File: img/info_model.png Graphic file (type png)
 <use img/info_model.png>
@@ -1582,7 +1466,7 @@ Overfull \hbox (78.1735pt too wide) in paragraph at lines 52--53
  []
 
 [3]
-<img/data_model.png, id=25, 3366.5775pt x 1197.47375pt>
+<img/data_model.png, id=23, 3366.5775pt x 1197.47375pt>
 File: img/data_model.png Graphic file (type png)
 <use img/data_model.png>
 Package pdftex.def Info: img/data_model.png  used on input line 58.
@@ -1669,19 +1553,17 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,7n,103p,727b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc
-/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sftt0800.pfb>
-Output written on /home/kyoto/workspace/vt-labs-3/out/main.pdf (7 pages, 410430
+/dvips/cm-super/cm-super-t2a.enc}</usr/share/texmf/fonts/type1/public/cm-super/
+sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+frm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sftt0800.pfb>
+Output written on /home/kyoto/workspace/vt-labs-3/out/main.pdf (7 pages, 393111
  bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
