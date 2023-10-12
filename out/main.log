@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.30)  2 OCT 2023 19:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.30)  12 OCT 2023 19:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1455,24 +1455,140 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `main.toc'.
 
  [2]
-<img/info_model.png, id=18, 3049.3925pt x 1097.09875pt>
+./tex/main_page.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33     \item actors_
+                      categories_history
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./tex/main_page.tex:34: LaTeX Error: Command \end{enumerate} invalid in math mo
+de.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/main_page.tex:34: LaTeX Error: Something's wrong--perhaps a missing \item
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/main_page.tex:34: LaTeX Error: Something's wrong--perhaps a missing \item
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./tex/main_page.tex:34: Missing $ inserted.
+<inserted text> 
+                $
+l.34 \end{enumerate}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tex/main_page.tex:46: Missing $ inserted.
+<inserted text> 
+                $
+l.46     \item actors_
+                      categories
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./tex/main_page.tex:47: LaTeX Error: Command \end{enumerate} invalid in math mo
+de.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/main_page.tex:47: LaTeX Error: Something's wrong--perhaps a missing \item
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/main_page.tex:47: LaTeX Error: Something's wrong--perhaps a missing \item
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./tex/main_page.tex:47: Missing $ inserted.
+<inserted text> 
+                $
+l.47 \end{enumerate}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+<img/info_model.png, id=18, 3366.5775pt x 1197.47375pt>
 File: img/info_model.png Graphic file (type png)
 <use img/info_model.png>
-Package pdftex.def Info: img/info_model.png  used on input line 51.
-(pdftex.def)             Requested size: 457.38914pt x 164.55771pt.
+Package pdftex.def Info: img/info_model.png  used on input line 52.
+(pdftex.def)             Requested size: 504.96484pt x 179.61331pt.
 
-Overfull \hbox (30.5978pt too wide) in paragraph at lines 51--52
+Overfull \hbox (78.1735pt too wide) in paragraph at lines 52--53
  [][] 
  []
 
 [3]
-<img/data_model.png, id=23, 4531.93124pt x 1153.30875pt>
+<img/data_model.png, id=25, 3366.5775pt x 1197.47375pt>
 File: img/data_model.png Graphic file (type png)
 <use img/data_model.png>
-Package pdftex.def Info: img/data_model.png  used on input line 57.
-(pdftex.def)             Requested size: 453.21968pt x 115.33763pt.
+Package pdftex.def Info: img/data_model.png  used on input line 58.
+(pdftex.def)             Requested size: 504.96484pt x 179.61331pt.
 
-Overfull \hbox (26.42833pt too wide) in paragraph at lines 57--58
+Overfull \hbox (78.1735pt too wide) in paragraph at lines 58--59
  [][] 
  []
 
@@ -1482,81 +1598,90 @@ LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line
 
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
+)) [5]
 (./scripts/insert.tex
-Overfull \hbox (8.72604pt too wide) in paragraph at lines 56--56
-[]    \T2A/cmtt/m/n/5 ((SELECT actor_id FROM actors WHERE name = 'дети'), (SELE
-CT actor_id FROM actors WHERE name = 'динозавры'), (SELECT feel_id FROM feels W
-HERE name = 'интерес')),[] 
+Overfull \hbox (3.41486pt too wide) in paragraph at lines 70--70
+[]    \T2A/cmtt/m/n/5 ((SELECT actor_id FROM actors WHERE name = 'грант'), (SEL
+ECT actor_id FROM actors WHERE name = 'ребенок'), (SELECT feel_id FROM feels WH
+ERE name = 'любовь')),[] 
  []
 
 
-Overfull \hbox (51.21555pt too wide) in paragraph at lines 56--56
-[]    \T2A/cmtt/m/n/5 ((SELECT actor_id FROM actors WHERE name = 'динозавры'), 
-(SELECT actor_id FROM actors WHERE name = 'дети'), (SELECT feel_id FROM feels W
-HERE name = 'производить впечатление')),[] 
+Overfull \hbox (14.03723pt too wide) in paragraph at lines 70--70
+[]    \T2A/cmtt/m/n/5 ((SELECT actor_id FROM actors WHERE name = 'ребенок'), (S
+ELECT actor_id FROM actors WHERE name = 'динозавр'), (SELECT feel_id FROM feels
+ WHERE name = 'интерес')),[] 
  []
 
 
-Overfull \hbox (6.07045pt too wide) in paragraph at lines 56--56
-[]    \T2A/cmtt/m/n/5 ((SELECT actor_id FROM actors WHERE name = 'дети'), (SELE
-CT actor_id FROM actors WHERE name = 'динозавры'), (SELECT feel_id FROM feels W
-HERE name = 'любовь')),[] 
+Overfull \hbox (27.3152pt too wide) in paragraph at lines 70--70
+[]    \T2A/cmtt/m/n/5 ((SELECT actor_id FROM actors WHERE name = 'динозавр'), (
+SELECT actor_id FROM actors WHERE name = 'ребенок'), (SELECT feel_id FROM feels
+ WHERE name = 'впечатляться')),[] 
  []
 
 
-Overfull \hbox (8.72604pt too wide) in paragraph at lines 56--56
-[]    \T2A/cmtt/m/n/5 ((SELECT actor_id FROM actors WHERE name = 'дети'), (SELE
-CT actor_id FROM actors WHERE name = 'родители'), (SELECT feel_id FROM feels WH
-ERE name = 'обожание')),[] 
+Overfull \hbox (11.38164pt too wide) in paragraph at lines 70--70
+[]    \T2A/cmtt/m/n/5 ((SELECT actor_id FROM actors WHERE name = 'ребенок'), (S
+ELECT actor_id FROM actors WHERE name = 'динозавр'), (SELECT feel_id FROM feels
+ WHERE name = 'любовь')),[] 
  []
 
 
-Overfull \hbox (0.75926pt too wide) in paragraph at lines 56--56
-[]    \T2A/cmtt/m/n/5 ((SELECT actor_id FROM actors WHERE name = 'дети'), (SELE
-CT actor_id FROM actors WHERE name = 'родители'), (SELECT feel_id FROM feels WH
-ERE name = 'страх')),[] 
+Overfull \hbox (16.69283pt too wide) in paragraph at lines 70--70
+[]    \T2A/cmtt/m/n/5 ((SELECT actor_id FROM actors WHERE name = 'ребенок'), (S
+ELECT actor_id FROM actors WHERE name = 'родитель'), (SELECT feel_id FROM feels
+ WHERE name = 'обожание')),[] 
  []
 
 
-Overfull \hbox (3.41486pt too wide) in paragraph at lines 56--56
-[]    \T2A/cmtt/m/n/5 ((SELECT actor_id FROM actors WHERE name = 'дети'), (SELE
-CT actor_id FROM actors WHERE name = 'родители'), (SELECT feel_id FROM feels WH
-ERE name = 'любовь'));[] 
+Overfull \hbox (8.72604pt too wide) in paragraph at lines 70--70
+[]    \T2A/cmtt/m/n/5 ((SELECT actor_id FROM actors WHERE name = 'ребенок'), (S
+ELECT actor_id FROM actors WHERE name = 'родитель'), (SELECT feel_id FROM feels
+ WHERE name = 'страх')),[] 
  []
 
-) [5])
-Overfull \hbox (2.2117pt too wide) in paragraph at lines 71--38
+
+Overfull \hbox (11.38164pt too wide) in paragraph at lines 70--70
+[]    \T2A/cmtt/m/n/5 ((SELECT actor_id FROM actors WHERE name = 'ребенок'), (S
+ELECT actor_id FROM actors WHERE name = 'родитель'), (SELECT feel_id FROM feels
+ WHERE name = 'любовь'));[] 
+ []
+
+) [6])
+Overfull \hbox (2.2117pt too wide) in paragraph at lines 73--38
 \T2A/cmr/m/n/10 по-лу-че-ны на-вы-ки на-пи-са-ния DDL и DML за-про-сов на язы-к
 е SQL для ба-зы дан-ных PostgreSQL.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--38
+Underfull \hbox (badness 10000) in paragraph at lines 73--38
 
  []
 
-[6] (/home/kyoto/workspace/vt-labs-3/out/main.aux) ) 
+[7] (/home/kyoto/workspace/vt-labs-3/out/main.aux) ) 
 Here is how much of TeX's memory you used:
  30143 strings out of 478287
  716312 string characters out of 5849289
- 1090214 words of memory out of 5000000
+ 1089214 words of memory out of 5000000
  47851 multiletter control sequences out of 15000+600000
  478119 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,7n,103p,727b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc
-/dvips/cm-super/cm-super-t2a.enc}</usr/share/texmf/fonts/type1/public/cm-super/
-sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-frm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on /home/kyoto/workspace/vt-labs-3/out/main.pdf (6 pages, 358547
+/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sftt0800.pfb>
+Output written on /home/kyoto/workspace/vt-labs-3/out/main.pdf (7 pages, 410430
  bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

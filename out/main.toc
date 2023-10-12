@@ -8,4 +8,4 @@
 \contentsline {section}{\numberline {4}Инфологическая модель.}{4}{}%
 \contentsline {section}{\numberline {5}Даталогическая модель.}{4}{}%
 \contentsline {section}{\numberline {6}Реализация даталогической модели на SQL.}{5}{}%
-\contentsline {section}{\numberline {7}Выводы по работе.}{6}{}%
+\contentsline {section}{\numberline {7}Выводы по работе.}{7}{}%
