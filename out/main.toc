@@ -1,11 +1,12 @@
 \babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {1}Текст задания.}{3}{}%
-\contentsline {section}{\numberline {2}Описание предметной области.}{3}{}%
-\contentsline {section}{\numberline {3}Список и классификация сущностей.}{3}{}%
-\contentsline {subsection}{\numberline {3.1}Стержневые.}{3}{}%
-\contentsline {subsection}{\numberline {3.2}Ассоциативные.}{3}{}%
-\contentsline {subsection}{\numberline {3.3}Характеристические.}{3}{}%
-\contentsline {section}{\numberline {4}Инфологическая модель.}{4}{}%
-\contentsline {section}{\numberline {5}Даталогическая модель.}{4}{}%
-\contentsline {section}{\numberline {6}Реализация даталогической модели на SQL.}{5}{}%
-\contentsline {section}{\numberline {7}Выводы по работе.}{7}{}%
+\contentsline {section}{\numberline {1}Описание предметной области.}{3}{}%
+\contentsline {section}{\numberline {2}Инфологическая модель.}{3}{}%
+\contentsline {section}{\numberline {3}Даталогическая модель.}{3}{}%
+\contentsline {section}{\numberline {4}Минимальное множество функциональных зависимостей.}{4}{}%
+\contentsline {section}{\numberline {5}Нормализация.}{4}{}%
+\contentsline {subsection}{\numberline {5.1}Первая нормальная форма.}{4}{}%
+\contentsline {subsection}{\numberline {5.2}Вторая нормальная форма.}{4}{}%
+\contentsline {subsection}{\numberline {5.3}Третья нормальная форма.}{5}{}%
+\contentsline {subsection}{\numberline {5.4}BCNF.}{5}{}%
+\contentsline {section}{\numberline {6}Денормализация.}{5}{}%
+\contentsline {section}{\numberline {7}Заключение.}{5}{}%
