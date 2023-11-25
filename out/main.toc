@@ -1,12 +1,16 @@
 \babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {1}Описание предметной области.}{3}{}%
-\contentsline {section}{\numberline {2}Инфологическая модель.}{3}{}%
-\contentsline {section}{\numberline {3}Даталогическая модель.}{3}{}%
-\contentsline {section}{\numberline {4}Минимальное множество функциональных зависимостей.}{4}{}%
-\contentsline {section}{\numberline {5}Нормализация.}{4}{}%
-\contentsline {subsection}{\numberline {5.1}Первая нормальная форма.}{4}{}%
-\contentsline {subsection}{\numberline {5.2}Вторая нормальная форма.}{4}{}%
-\contentsline {subsection}{\numberline {5.3}Третья нормальная форма.}{5}{}%
-\contentsline {subsection}{\numberline {5.4}BCNF.}{5}{}%
-\contentsline {section}{\numberline {6}Денормализация.}{5}{}%
-\contentsline {section}{\numberline {7}Заключение.}{5}{}%
+\contentsline {section}{\numberline {1}Задание}{3}{}%
+\contentsline {section}{\numberline {2}Сделать запрос для получения атрибутов из указанных таблиц, применив фильтры по указанным условиям:}{4}{}%
+\contentsline {subsection}{\numberline {2.1}SQL-Запрос:}{4}{}%
+\contentsline {section}{\numberline {3}Сделать запрос для получения атрибутов из указанных таблиц, применив фильтры по указанным условиям:}{5}{}%
+\contentsline {subsection}{\numberline {3.1}SQL-Запрос:}{5}{}%
+\contentsline {section}{\numberline {4}Вывести число студентов группы 3102, которые старше 25 лет.}{6}{}%
+\contentsline {subsection}{\numberline {4.1}SQL-Запрос:}{6}{}%
+\contentsline {section}{\numberline {5}Выдать различные фамилии студентов и число людей с каждой из этих фамилий, ограничив список фамилиями, встречающимися менее 10 раз на кафедре вычислительной техники.}{7}{}%
+\contentsline {subsection}{\numberline {5.1}SQL-Запрос:}{7}{}%
+\contentsline {section}{\numberline {6}Выведите таблицу со средними оценками студентов группы 4100 (Номер, ФИО, Ср\_оценка), у которых средняя оценка не меньше минимальной оценк(е|и) в группе 1100.}{8}{}%
+\contentsline {subsection}{\numberline {6.1}SQL-Запрос:}{8}{}%
+\contentsline {section}{\numberline {7}Получить список студентов, отчисленных после первого сентября 2012 года с заочной формы обучения (специальность: 230101). В результат включить:}{9}{}%
+\contentsline {subsection}{\numberline {7.1}SQL-Запрос:}{9}{}%
+\contentsline {section}{\numberline {8}Вывести список студентов, имеющих одинаковые отчества, но не совпадающие даты рождения.}{10}{}%
+\contentsline {subsection}{\numberline {8.1}SQL-Запрос:}{10}{}%
