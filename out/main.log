@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  26 NOV 2023 02:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  28 NOV 2023 11:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1696,7 +1696,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.47 \end{enumerate}
-                    
+                    \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1709,7 +1709,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.47 \end{enumerate}
-                    
+                    \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1722,7 +1722,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.47 \end{enumerate}
-                    
+                    \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1730,7 +1730,7 @@ If that doesn't work, type  X <return>  to quit.
 <inserted text> 
                 $
 l.47 \end{enumerate}
-                    
+                    \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1752,23 +1752,29 @@ Missing character: There is no Ä in font cmr7!
 <inserted text> 
                 }
 l.47 \end{enumerate}
-                    
+                    \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[5] [6] [7]
-Overfull \hbox (6.10065pt too wide) in paragraph at lines 94--94
+[5]
+Overfull \hbox (40.34457pt too wide) in paragraph at lines 78--78
+[]        \T2A/cmtt/m/n/10 case when (ÄÀÒÀ_ÑÌÅÐÒÈ is null or ÄÀÒÀ_ÑÌÅÐÒÈ = '999
+9-09-09 00:00:00'::timestamp)[] 
+ []
+
+[6] [7]
+Overfull \hbox (6.10065pt too wide) in paragraph at lines 101--101
 []\T2A/cmr/bx/n/14.4 Âûâåäèòå òàá-ëè-öó ñî ñðåä-íè-ìè îöåí-êà-ìè ñòó-äåí-òîâ ãð
 óï-
  []
 
 [8] [9]
-Overfull \hbox (45.59329pt too wide) in paragraph at lines 147--147
-[]    \T2A/cmtt/m/n/10 select Í_ËÞÄÈ.ÔÀÌÈËÈß, Í_ËÞÄÈ.ÈÌß, DISTINCT ON( Í_ËÞÄÈ.Î
-Ò×ÅÑÒÂÎ, Í_ËÞÄÈ.ÄÀÒÀ_ÐÎÆÄÅÍÈß)[] 
+Overfull \hbox (24.59842pt too wide) in paragraph at lines 155--155
+[]\T2A/cmtt/m/n/10 select DISTINCT ON( Í_ËÞÄÈ.ÎÒ×ÅÑÒÂÎ, Í_ËÞÄÈ.ÄÀÒÀ_ÐÎÆÄÅÍÈß) Í
+_ËÞÄÈ.ÔÀÌÈËÈß, Í_ËÞÄÈ.ÈÌß,[] 
  []
 
 ) [10] (/Users/zkyoto/workspace/vt-labs-3/out/main.aux) ) 
@@ -1794,7 +1800,7 @@ super/sfrm1000.pfb></usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts
 /texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/Cellar/texlive
 /20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
 Output written on /Users/zkyoto/workspace/vt-labs-3/out/main.pdf (10 pages, 230
-250 bytes).
+116 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream

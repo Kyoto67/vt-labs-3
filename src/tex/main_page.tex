@@ -44,7 +44,7 @@ from Н_ЛЮДИ
 \begin{enumerate}
 	\item \textit{Н\_ЛЮДИ.ИД} < \textbf{163484}.
 	\item \textit{Н_ВЕДОМОСТИ.ИД} < \textbf{1490007}
-\end{enumerate}
+\end{enumerate}\\
 Вид соединения: \textit{RIGHT JOIN}.
 
 \subsection{SQL-Запрос:}
@@ -63,11 +63,18 @@ from Н_ЛЮДИ
 
 \subsection{SQL-Запрос:}
 \begin{verbatim}
-select count(*)
-from Н_УЧЕНИКИ
-	join Н_ЛЮДИ on ЧЛВК_ИД = Н_ЛЮДИ.ИД
-	where ГРУППА = '3102'
-	and ДАТА_РОЖДЕНИЯ < CURRENT_DATE - interval '25 years';
+    select count(*)
+    from (
+        select Н_УЧЕНИКИ.ИД,
+        case when (ДАТА_СМЕРТИ is null or ДАТА_СМЕРТИ = '9999-09-09 00:00:00'::timestamp)
+                    then ДАТА_РОЖДЕНИЯ < CURRENT_DATE - interval '25 years'
+             else ДАТА_СМЕРТИ::timestamp - ДАТА_РОЖДЕНИЯ > interval '25  years'
+        end as uslovie
+        from Н_УЧЕНИКИ
+            join Н_ЛЮДИ on ЧЛВК_ИД = Н_ЛЮДИ.ИД
+            where ГРУППА = '3102'
+    ) as subquery
+    where subquery.uslovie;
 \end{verbatim}
 
 \newpage
@@ -140,7 +147,8 @@ from Н_УЧЕНИКИ
 
 \subsection{SQL-Запрос:}
 \begin{verbatim}
-select DISTINCT ON( Н_ЛЮДИ.ОТЧЕСТВО, Н_ЛЮДИ.ДАТА_РОЖДЕНИЯ) Н_ЛЮДИ.ФАМИЛИЯ, Н_ЛЮДИ.ИМЯ, Н_ЛЮДИ.ОТЧЕСТВО, Н_ЛЮДИ.ДАТА_РОЖДЕНИЯ
+select DISTINCT ON( Н_ЛЮДИ.ОТЧЕСТВО, Н_ЛЮДИ.ДАТА_РОЖДЕНИЯ) Н_ЛЮДИ.ФАМИЛИЯ, Н_ЛЮДИ.ИМЯ,
+    Н_ЛЮДИ.ОТЧЕСТВО, Н_ЛЮДИ.ДАТА_РОЖДЕНИЯ
 from Н_УЧЕНИКИ
     join Н_ЛЮДИ on Н_УЧЕНИКИ.ЧЛВК_ИД = Н_ЛЮДИ.ИД
     order by Н_ЛЮДИ.ОТЧЕСТВО
